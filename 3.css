@@ -1,0 +1,7 @@
+body    { font: 11pt/14pt Arial, sans-serif; background: #f0f3ea; color: #6a835e; }
+h1      { color: #2f7fb2; }
+h2      { color: #7f6a49; }
+
+@media print {
+    body  {font: 12pt Times; background: white; color: #000000;}
+}

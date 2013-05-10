@@ -1,0 +1,96 @@
+/*Polynomial*/
+.formula                    { font-size: 1.6em; font-style: italic; }
+.formula sup                { font-style: normal; font-size: 0.6em; color: red; }
+.formula sub                { font-style: normal; font-size: 0.6em; color: blue; }
+
+/*EKG-5*/
+#blockName                  { color: white; font-size: 18px; background: #000000; height: 22px; padding: 5px;
+                                position: absolute;}
+#blockName:after            { content: ''; top: 0; border-top:32px solid #000000; position: absolute; left: 51px;
+                                border-right: 20px solid transparent; }
+#blockInfo                  { width: 350px; padding: 35px 15px 15px 25px; border-radius: 0 0 15px 15px;
+                                background: linear-gradient(#ffffff, #afafaf); }
+#infoBlock                  { width: 350px; margin: auto; display: inline; }
+
+/*Cut angels*/
+#kyt                        { background: #800609; color: #fff; padding: 5px; margin: 10px; width: 350px;
+                                text-align: center; display: inline-block; }
+#kyt>p                      { background:#800609; padding: 25px; margin-bottom: -10px; margin-top: -10px;}
+
+#glamur                     { background: linear-gradient(#14ff0c 0%, #78ff5f 50%,#14ff0c 100%);font-size: 20px;
+                                width: 165px; height: 44px; border-radius: 25px; border: 4px double #FFFFFF;
+                                box-shadow: 0 0 8px 0 #ccc; }   /*Glamur button*/
+
+/*Painted border*/
+#borderStrange              { border: 12px solid; background-color: rgb(252,189,42); height: 80px; width: 50%;
+                                border-image: url("http://htmlbook.ru/sites/default/files/border.png") 25 round round;}
+
+/*Color links*/
+.linkNav                    { background-color: #333333; }
+#link1                      { color: red; border-left: white; }
+#link2                      { color: cyan; }
+#link3                      { color: yellow; }
+
+/*Table creating*/
+table                       { width: 600px; display: inline-block; }
+td                          { padding: 10px; vertical-align: top; background-color: #cc2926;}
+td:first-child              { width: 150px; background-color: #ff2d54; }
+
+/*Gradient buttons*/
+#inOneB                     { border-radius: 5px; border: 2px inset; }
+#outOneB                    { background: linear-gradient(#49ee63 0%, #1cb721 50%, #49ee63 100%); border: 1px solid grey;
+                                border-radius: 5px; }
+#outTwoB                    { background: linear-gradient(#d5edf2 10%, #00bce2 80%); border: 1px solid grey; border-radius: 5px; }
+#webStyleB                  { background: linear-gradient(#ededed, #232323); border-color: black; border-radius: 5px; }
+#ordinaryB                  { background: linear-gradient(#03bbd8, #e2fbfd); border: 1px solid grey; border-radius: 5px; }
+
+/*Double border*/
+.box                        { width: 300px; border: solid #30eb16; border-width: 10px 5px 5px 10px; height: 50px;
+                                position: relative; }
+.box:after                  { position: absolute; content:""; width: 100%; height:100%; border: 5px solid #97e91d;
+                                top: -10px; left: -10px; }
+
+/*Edge over form*/
+label                       { display: block; margin-left: 160px;  }
+legend                      { color: #a25d43; display: block;}
+fieldset                    { background: url("http://htmlbook.ru/sites/default/files/check-bg.png") no-repeat 10px 10px #e0e2b7;
+                                border: 1px solid black; padding: 10px; width: 500px; }
+
+
+/*Squares*/
+.black                      { background-color: black; width: 50px; height: 50px; border: 5px double white; }
+.white                      { position: absolute; top: 35px; left: 35px; border: 1px solid black; width: 50px; height: 50px;
+                                background-color: white; }
+
+/*Fliping photo*/
+#photoNav                   { position: absolute; display: inline-block; margin-left: 200px; margin-top: 560px; }
+#photoNav li                { display: inline-block; margin-left: 5px; }
+#photoNav li a              { display: inline-block; border: 2px solid white; border-radius: 9px; background-color: #000000;
+                                height: 10px; width:10px; }
+#photoNav li a:active       { background-color: #ff0e0c; box-shadow: 0 0 8px 3px white; }
+#photoGalery                { width: 600px; height: 599px; background-image: url("http://www.indybay.org/uploads/2008/06/19/600px-cat03.jpg");
+                                display: inline-block; }
+
+/*Overlay*/
+.layer1                     { background: #008B66; color: #fff; padding: 10px; margin-bottom: -7px; font-size: 1.1em; width: 300px; }
+.layer2                     { margin-left: 30px; background: #dfe6e1; padding: 10px; border: 1px solid #fff; border-right: none;
+                                width: 300px; }
+
+/*Numbering*/
+.page li                    { box-shadow: 0 0 4px #666; border-radius: 3px; background: linear-gradient(#fff, #d3cdc6);
+                                width: 20px; text-align: center; display: inline-block; margin-right: 12px; }
+
+/*Page numbering*/
+.pager                      { background-color: #efefef; line-height: 30px; width: 300px; }
+.pager a                    { text-decoration: none; color: #720001; padding: 10px; }
+.pager li                   { width: 40px; }
+.pager-item,
+.pager-next                 { display: inline-block; text-align: center; border-bottom: 8px solid #cbcbcb; }
+li:hover,
+.pager-current              { display: inline-block; text-align: center; background-color: #cbcbcb; border-bottom: 8px solid #373737;}
+
+/*Citation*/
+blockquote                  { width: 450px; }
+blockquote p                { margin: 1em 3em; }
+blockquote:after            { content: '»'; float: right; margin-top: -1.2em; font-size: 3em; color: #800; }
+blockquote:before           { content: '«'; float: left; margin-top: -0.4em; font-size: 3em; color: #800; }

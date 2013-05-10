@@ -1,0 +1,30 @@
+/*Color colums*/
+.stone                      { width: 500px; border: 1px solid #000; border-collapse: collapse; }
+.stone th                   { background: #a30706; color: #cdcdcd; padding: 3px; text-align: left; border: 1px solid #720001; }
+.stone td                   { padding: 3px; text-align: left; border: 1px solid #720001; background: #de2d3b; }
+.stone th:nth-child(3)      { text-align: center; }
+.stone td:nth-child(even)   { background: #ff7c35; }
+
+/*Text in border*/
+.b-w                        { border: 1px solid black; font: 30px Sans; padding: 5px 0; width: 212px; }
+#white                      { background-color: black; color: white; padding: 3px; }
+
+/*Bread crumbs*/
+.crumb                      { background: linear-gradient(#ffffff, green); border-right: 1px solid #fff; font: 18px Verdana;
+                                border-radius: 0 25px 25px 0; line-height: 40px; width: 400px; }
+.crumb span                 { border-right: 1px solid #fff; border-radius: 0 25px 25px 0; margin: 5px; padding: 10px;
+                                box-shadow: 10px 0 6px -6px grey; }
+
+/*Gomoku*/
+.gomoku                     { border-collapse: collapse; }
+.gomoku td                  { border: 1px solid; padding: 15px;}
+.gomoku th                  { padding-right: 20px; text-align: right; }
+tfoot th                    { padding-right: 0; padding-top: 15px; text-align: center;}
+
+/*Menu with shadow*/
+.menu                       { width: 190px; background-color: #f7e396; color: #870001; border: 1px solid #870001;
+                                border-radius: 5px; padding: 5px; box-shadow: 5px 5px 0 0 #860002; text-align: center;}
+
+/*Checkbox*/
+span                        { padding: 0 5px; }
+input:checked + span        { background: #fc0; }

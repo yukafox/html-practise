@@ -1,0 +1,9 @@
+h2          { font-size: 1.1em; color: #752641; margin-bottom: 0; }
+body        { font: 10pt Arial, Helvetica, sans-serif; background: #fff; margin: 0; }
+aside       { position: absolute; right: 0; top: 60px; width: 120px; }
+header      { background: #8fa09b; font-size: 24pt; font-weight: bold; color: #edeed5; padding: 5px; }
+footer      { background: #8fa09b; color: #fff; padding: 5px; }
+section     { margin-right: 130px; padding: 10px; border-right: 1px dashed #183533; }
+section p   { margin-top: 0.3em; }
+
+#container  { width: 500px; margin: 0 auto; position: relative; }

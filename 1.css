@@ -1,0 +1,15 @@
+#1>sub      { font-size: 100%; }  /*TEX*/
+
+#2>sub, sup { font-style: italic; }  /*Top and bottom index*/
+
+#structure  { background: green; color: white; }  /*List of items*/
+
+/*Color and background in table*/
+#step       { width: 100%; }
+#step1      { background: red; }
+#step2      { background: orange; }
+#step3      { background: yellow; }
+
+/*Width of table*/
+#fear       { width: 200px; }
+td          { max-width: 200px; word-wrap: break-word; border: 1px solid gray; }
